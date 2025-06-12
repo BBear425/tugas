@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document Encryption</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🔐 Document Encryption</h1>
+    
+    <div class="box">
+      <h2>Enkripsi File</h2>
+      <input type="file" id="fileInput">
+      <button id="encryptBtn">Enkripsi</button>
+      <div id="encryptResult"></div>
+    </div>
+
+    <div class="box">
+      <h2>Deskripsi File</h2>
+      <input type="file" id="encryptedFileInput" accept=".enc">
+      <button id="decryptBtn">Deskripsi</button>
+      <a id="downloadLink" style="display:none">Download File</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
